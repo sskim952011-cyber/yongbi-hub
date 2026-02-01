@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>용비검 철학 심화 자료 허브</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            border-bottom: 4px solid #333;
+            padding-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            font-size: 1.4em;
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .summary-box {
+            background-color: #e8f0fe;
+            border-left: 5px solid #1a73e8;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .quiz-section {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 10px;
+        }
+        
+        .quiz-item {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        .term {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #28a745;
+            border-radius: 5px;
+        }
+        
+        .term-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .faq-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .faq-question {
+            font-size: 1.15em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        
+        .backlinks {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            margin: 40px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .backlinks a {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .backlinks a:hover {
+            transform: scale(1.05);
+        }
+        
+        blockquote {
+            background: #f9f9f9;
+            border-left: 5px solid #ccc;
+            margin: 20px 0;
+            padding: 15px 20px;
+            font-style: italic;
+            color: #555;
+        }
+        
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .icon {
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗡️ 용비검 철학 심화 자료 허브</h1>
+        <p class="subtitle">주역 건위천·비룡재천 검리 전문 해설 | 용어사전 12개 | 건괘 6효 대조표 | FAQ 5개 | 자가 진단 퀴즈</p>
+        
+        <div class="summary-box">
+            <h3>📌 요약 (5줄)</h3>
+            <ol>
+                <li><strong>제1원리:</strong> 검을 쥐지 말고 던져라 — 중력과 관성을 활용한 관성 극대화</li>
+                <li><strong>제2원리:</strong> 척추를 타고 흐르는 순양의 기(독맥) — 단전에서 백회까지 에너지 상승</li>
+                <li><strong>제3원리:</strong> 비룡재천(飛龍在天) — 던짐으로 구현하는 정점, 물아일체의 경지</li>
+                <li><strong>제4원리:</strong> 항룡유회(亢龍有悔) — 발산의 극한 후 수렴, 중심 재충전</li>
+                <li><strong>핵심 통찰:</strong> 동양의 용은 날개 없이 흐름에 맡겨 비상하며, 가장 강한 힘은 쥐었을 때가 아니라 던졌을 때 온다</li>
+            </ol>
+        </div>
+        
+        <h2>🎯 자가 진단 퀴즈: "당신의 검리 이해도는?"</h2>
+        <div class="quiz-section">
+            <div class="quiz-item">
+                <p><strong>Q1. 용비검에서 '던지기'의 핵심은 무엇인가요?</strong></p>
+                <p>A) 검을 멀리 날리는 것<br>
+                B) 검의 무게중심을 활용해 관성을 얻는 것 ✅<br>
+                C) 검을 버리는 것<br>
+                D) 검을 강하게 내리치는 것</p>
+                <p><strong>해설:</strong> 던지기는 검을 버리는 것이 아니라, 검의 무게중심을 상대 방향으로 '툭' 하고 놓아 중력 가속도를 얻는 것입니다. 이 순간 뇌는 공포하지만, 그 공포를 속여 더 멀리 던져야 합니다.</p>
+            </div>
+            
+            <div class="quiz-item">
+                <p><strong>Q2. 주역 건위천(乾爲天)에서 '순양(純陽)'이 의미하는 것은?</strong></p>
+                <p>A) 태양의 힘<br>
+                B) 여섯 효가 모두 양으로만 찬 팽창하는 창조력 ✅<br>
+                C) 남성성<br>
+                D) 밝은 빛</p>
+                <p><strong>해설:</strong> 건위천은 주역 64괘 중 유일하게 여섯 효가 모두 양(陽)으로만 구성된 순양의 괘입니다. 이것은 멈추지 않고 팽창하는 우주의 창조력이자, 척추를 타고 뇌까지 솟구치는 에너지의 설계도입니다.</p>
+            </div>
+            
+            <div class="quiz-item">
+                <p><strong>Q3. 비룡재천(飛龍在天)이 검술에서 구현되는 단계는?</strong></p>
+                <p>A) 검을 베는 순간<br>
+                B) 검을 던져 S자 궤적을 그릴 때 ✅<br>
+                C) 검을 처음 쥘 때<br>
+                D) 검을 칼집에 넣을 때</p>
+                <p><strong>해설:</strong> 비룡재천은 건괘의 5번째 효로, 에너지가 정점에 달한 상태입니다. 검술에서는 검을 던져 허공에 거대한 S자를 그리는 순간, 검객의 육체적 존재감이 사라지고 오직 검의 궤적만 남는 물아일체의 경지입니다.</p>
+            </div>
+            
+            <div class="quiz-item">
+                <p><strong>Q4. 항룡유회(亢龍有悔)가 경고하는 것은?</strong></p>
+                <p>A) 검을 너무 세게 휘두르면 안 된다<br>
+                B) 발산만 하고 수렴하지 않으면 무너진다 ✅<br>
+                C) 용이 너무 높이 날면 떨어진다<br>
+                D) 검술을 과시하면 안 된다</p>
+                <p><strong>해설:</strong> 항룡유회는 건괘의 마지막 효로, "끝까지 올라간 용은 후회한다"는 뜻입니다. 던지는 힘이 과하면 제어력을 잃고 중심이 무너집니다. 발산과 수렴의 순환이 필수입니다.</p>
+            </div>
+            
+            <div class="quiz-item">
+                <p><strong>Q5. 일상에서 용비검 원리를 적용하는 방법은?</strong></p>
+                <p>A) 무언가를 움켜쥐려는 순간을 포착하고 던지는 상상을 한다 ✅<br>
+                B) 검을 항상 휴대한다<br>
+                C) 무예를 수련한다<br>
+                D) 주역을 암기한다</p>
+                <p><strong>해설:</strong> 용비검의 핵심은 '던짐의 지혜'입니다. 키보드, 핸들, 스마트폰을 쥘 때마다 쥐는 대신 '툭' 던지는 상상을 하면 어깨가 내려가고 호흡이 길어집니다.</p>
+            </div>
+        </div>
+        
+        <h2>📚 용어사전 (12개)</h2>
+        
+        <div class="term">
+            <div class="term-title">1. 용비검(龍飛劍) | Yongbi Sword</div>
+            <p><strong>정의:</strong> "날아다니는 용의 검"이라는 뜻으로, 20년 전 한 스승이 검술에 붙인 이름. 검을 쥐지 않고 던져 중력과 관성을 극대화하는 검법.</p>
+            <p><strong>검리 연결:</strong> 검은 내 척추가 뿜어내는 뜨거운 피와 신경의 연장이며, 검의 무게에 목숨을 걸지 말고 검이 가고자 하는 길로 몸을 던지는 것이 핵심.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">2. 건위천(乾爲天) | Qian Hexagram</div>
+            <p><strong>정의:</strong> 주역 64괘 중 1번 괘. 여섯 효가 모두 양(陽)으로만 찬 순양(純陽)의 괘. 멈추지 않고 팽창하는 우주의 창조력.</p>
+            <p><strong>검리 연결:</strong> 척추를 타고 단전에서 백회까지 솟구치는 에너지의 설계도이자, 용비검의 철학적 토대.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">3. 비룡재천(飛龍在天) | Flying Dragon in the Sky</div>
+            <p><strong>정의:</strong> 건괘의 5번째 효. "나는 용이 하늘에 있다." 에너지가 정점에 달한 상태. 구오(九五)라고도 함.</p>
+            <p><strong>검리 연결:</strong> 검을 던져 허공에 S자 궤적을 그리는 순간, 검객의 육체적 존재감이 사라지고 오직 검의 궤적만 남는 물아일체의 경지.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">4. 항룡유회(亢龍有悔) | Arrogant Dragon Repents</div>
+            <p><strong>정의:</strong> 건괘의 6번째 효(상구). "끝까지 올라간 용은 후회한다." 발산의 극한에 대한 경고.</p>
+            <p><strong>검리 연결:</strong> 던지는 힘이 과하면 제어력을 잃고 중심이 무너진다. 발산 후 반드시 수렴해서 단전으로 돌아와야 재충전 가능.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">5. 잠룡물용(潛龍勿用) | Hidden Dragon, Do Not Use</div>
+            <p><strong>정의:</strong> 건괘의 1번째 효(초구). "숨어 있는 용은 쓰지 마라." 에너지를 축적하는 단계.</p>
+            <p><strong>검리 연결:</strong> 단전에 에너지를 응축하고, 척추를 수직으로 세워 준비하는 단계. 아직 검을 던지지 않는다.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">6. 독맥(督脈) | Governor Vessel</div>
+            <p><strong>정의:</strong> 한의학에서 척추를 따라 흐르는 양기(陽氣)의 경로. 회음(뿌리)에서 시작해 척추를 타고 뇌(백회)까지 상승.</p>
+            <p><strong>검리 연결:</strong> 용비검 수련 시 척추를 고속도로로 보고, 단전의 에너지를 독맥을 통해 손끝 검으로 쏘아 보낸다.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">7. 단전(丹田) | Dantian</div>
+            <p><strong>정의:</strong> 배꼽 아래 하복부에 위치한 에너지의 용광로. 한의학과 무예에서 생명력의 근원으로 간주.</p>
+            <p><strong>검리 연결:</strong> 검을 던지고 다시 거두는 모든 동작은 단전을 중심으로 회전하며, 나갔던 검은 반드시 배꼽으로 돌아와야 한다.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">8. 백회(百會) | Baihui</div>
+            <p><strong>정의:</strong> 머리 정수리에 위치한 경혈. 독맥의 최종 종착지이자, 양기가 모이는 곳.</p>
+            <p><strong>검리 연결:</strong> 단전에서 시작된 에너지가 척추를 타고 백회까지 솟구치면, 이 에너지가 손끝 검으로 전달되어 비룡재천을 구현한다.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">9. 투검(投劍) | Throwing the Sword</div>
+            <p><strong>정의:</strong> 검을 던지는 기술. 단순히 검을 날리는 것이 아니라, 검의 무게중심을 상대 방향으로 '툭' 놓아 중력 가속도를 얻는 것.</p>
+            <p><strong>검리 연결:</strong> 투검은 용비검의 핵심 기술이며, 뇌의 본능(쥐려는 공포)을 속이는 것이 성공의 열쇠.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">10. 물아일체(物我一體) | Unity of Self and Object</div>
+            <p><strong>정의:</strong> 나(我)와 사물(物)이 하나가 되는 경지. 주객이 사라지고 순수한 흐름만 남는 상태.</p>
+            <p><strong>검리 연결:</strong> 검을 던져 S자 궤적을 그릴 때, 내가 검을 부리는 것이 아니라 검이 나를 데리고 노는 경지가 물아일체.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">11. 순양(純陽) | Pure Yang</div>
+            <p><strong>정의:</strong> 음(陰)이 전혀 섞이지 않은 순수한 양(陽). 건위천 괘의 특징이며, 팽창과 창조의 에너지.</p>
+            <p><strong>검리 연결:</strong> 척추를 타고 흐르는 독맥의 에너지는 순양의 기이며, 이것이 검으로 전달될 때 비룡재천이 구현된다.</p>
+        </div>
+        
+        <div class="term">
+            <div class="term-title">12. 구오(九五) | Ninth in the Fifth Place</div>
+            <p><strong>정의:</strong> 건괘의 5번째 효를 가리키는 용어. 비룡재천(飛龍在天)의 효사. 주역에서 가장 이상적인 위치.</p>
+            <p><strong>검리 연결:</strong> 구오는 검을 던져 정점에 달하는 순간이며, 중용(中庸)과 균형을 유지하면서도 최대 효과를 내는 경지.</p>
+        </div>
+        
+        <h2>📊 주역 건괘 6효 대조표</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>효명</th>
+                    <th>주역 원문</th>
+                    <th>현대어 번역</th>
+                    <th>용비검 검리 적용</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>초구(初九)</strong></td>
+                    <td>잠룡물용(潛龍勿用)</td>
+                    <td>숨어 있는 용은 쓰지 마라</td>
+                    <td>단전에 에너지 축적, 척추 세우기. 아직 검을 던지지 않는 준비 단계.</td>
+                </tr>
+                <tr>
+                    <td><strong>구이(九二)</strong></td>
+                    <td>견룡재전(見龍在田)</td>
+                    <td>용이 밭에 나타나다</td>
+                    <td>검을 쥐고 자세를 잡는 단계. 에너지가 단전에서 척추로 올라오기 시작.</td>
+                </tr>
+                <tr>
+                    <td><strong>구삼(九三)</strong></td>
+                    <td>군자종일건건(君子終日乾乾)</td>
+                    <td>군자는 종일 부지런히 힘쓴다</td>
+                    <td>검을 휘두르는 반복 훈련. 척추 에너지를 손끝으로 연결하는 연습.</td>
+                </tr>
+                <tr>
+                    <td><strong>구사(九四)</strong></td>
+                    <td>혹약재연(或躍在淵)</td>
+                    <td>혹시 연못에서 뛰어오를 수 있다</td>
+                    <td>검을 던지기 직전의 순간. 중력 가속도를 얻기 위해 검의 무게중심을 놓는 단계.</td>
+                </tr>
+                <tr>
+                    <td><strong>구오(九五)</strong></td>
+                    <td><strong>비룡재천(飛龍在天)</strong></td>
+                    <td><strong>나는 용이 하늘에 있다</strong></td>
+                    <td><strong>검을 던져 허공에 S자 궤적을 그리는 정점. 물아일체의 경지.</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>상구(上九)</strong></td>
+                    <td>항룡유회(亢龍有悔)</td>
+                    <td>끝까지 올라간 용은 후회한다</td>
+                    <td>발산 후 수렴. 검을 다시 단전으로 당겨 중심을 재충전. 과도한 발산 경계.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>🔥 핵심 개념 대조표</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>개념</th>
+                    <th>전통 해석</th>
+                    <th>용비검 적용</th>
+                    <th>일상 전환</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>던지기</strong></td>
+                    <td>버리기, 포기</td>
+                    <td>검의 무게중심을 활용해 관성 극대화</td>
+                    <td>쥐려는 본능을 포착하고 '툭' 놓는 상상</td>
+                </tr>
+                <tr>
+                    <td><strong>용의 비상</strong></td>
+                    <td>권력, 출세</td>
+                    <td>흐름에 몸을 맡겨 에너지 효율 극대화</td>
+                    <td>저항 대신 교감, 힘을 뺄수록 강해짐</td>
+                </tr>
+                <tr>
+                    <td><strong>척추</strong></td>
+                    <td>자세, 뼈</td>
+                    <td>에너지 고속도로(독맥)</td>
+                    <td>척추 수직 세우기, 단전 호흡</td>
+                </tr>
+                <tr>
+                    <td><strong>항룡유회</strong></td>
+                    <td>교만 경계</td>
+                    <td>발산 후 수렴, 중심 재충전</td>
+                    <td>일 후 휴식, 내뱉은 숨 다시 마시기</td>
+                </tr>
+                <tr>
+                    <td><strong>물아일체</strong></td>
+                    <td>선불교 개념</td>
+                    <td>검이 나를 데리고 노는 경지</td>
+                    <td>몰입(Flow) 상태, 자아 망각</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>❓ FAQ: 용비검 검리에 관한 5가지 질문</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q1. 용비검에서 '던지기'는 구체적으로 어떤 동작인가요?</div>
+            <p><strong>A:</strong> 던지기는 검을 버리는 것이 아닙니다. 검의 무게중심을 상대 방향으로 '툭' 하고 놓아 중력 가속도를 얻는 것입니다. 이 순간 뇌는 "검을 놓치면 어떡하지?"라는 공포를 느끼지만, 이 공포를 속이고 더 멀리 던져야 합니다. 그러면 골반을 틀어 검을 다시 튕겨낼 수 있고(Re-throw), 검은 허공에 거대한 S자를 그립니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q2. 주역 건위천과 검술의 연결고리는 무엇인가요?</div>
+            <p><strong>A:</strong> 건위천(乾爲天)은 주역 64괘 중 첫 번째 괘로, 여섯 효가 모두 양(陽)으로만 찬 순양(純陽)의 괘입니다. 이것은 멈추지 않고 팽창하는 우주의 창조력이자, 척추를 타고 뇌까지 솟구치는 에너지의 설계도입니다. 한의학에서는 이를 '독맥(督脈)'이라 부르며, 용비검 수련 시 검객은 단전(丹田)의 에너지를 독맥을 통해 손끝 검으로 쏘아 보냅니다. 검은 내 척추가 뿜어내는 뜨거운 피와 신경의 연장입니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q3. 비룡재천은 왜 '던짐'으로 구현되나요?</div>
+            <p><strong>A:</strong> 비룡재천(飛龍在天)은 건괘의 5번째 효로, "나는 용이 하늘에 있다"는 뜻입니다. 이것은 에너지가 정점에 달한 상태이며, 검술에서는 검을 던져 허공에 거대한 S자 궤적을 그리는 순간으로 구현됩니다. 이 순간 검객의 육체적 존재감은 사라지고 오직 검이 그리는 궤적(용)만이 허공에 남습니다. 내가 검을 부리는 것이 아니라, 검이 나를 데리고 노는 물아일체(物我一體)의 경지입니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q4. 항룡유회는 무엇을 경고하나요?</div>
+            <p><strong>A:</strong> 항룡유회(亢龍有悔)는 건괘의 마지막 효(상구)로, "끝까지 올라간 용은 후회한다"는 뜻입니다. 던지는 힘이 과하면 제어력을 잃고 몸이 딸려나가거나 중심이 무너집니다. 주역은 냉철하게 경고합니다: 발산만 하고 수렴하지 않으면 무너진다. "하늘 높이 날아올랐으면, 다시 연못 깊은 곳으로 숨을 줄 알아야 한다. 나갔던 검은 반드시 네 배꼽(단전)으로 돌아와야 다시 쏠 수 있다." 이 끊임없는 순환이 용비검의 호흡법입니다.</p>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">Q5. 일상에서 용비검 원리를 어떻게 적용하나요?</div>
+            <p><strong>A:</strong> 오늘 하루, 무언가를 '움켜쥐려는' 순간을 포착하세요. 키보드, 핸들, 스마트폰을 쥘 때마다, 쥐는 대신 '툭' 하고 던지는 상상을 하세요. 어깨가 내려가고, 호흡이 길어지는 걸 느낄 것입니다. 구체적인 훈련:
+            <ul>
+                <li><strong>[체험]</strong> 던지기 상상: 오늘 무언가를 잡을 때마다 1회</li>
+                <li><strong>[관찰]</strong> 어깨 위치 확인: 하루 3번 체크하고 툭 떨어뜨리기</li>
+                <li><strong>[호흡]</strong> 단전 호흡 1분: 배꼽 아래 단전에 손을 대고 깊게 숨쉬기</li>
+            </ul>
+            가장 강한 힘은 쥐었을 때가 아니라, 던졌을 때 옵니다.</p>
+        </div>
+        
+        <h2>🔗 Back-links (다른 플랫폼에서 보기)</h2>
+        <div class="backlinks">
+            <h3 style="color: white; margin-bottom: 20px;">이 주제를 다른 형태로 탐색하기</h3>
+            <a href="#naver">📝 네이버 칼럼 보기</a>
+            <a href="#google">📝 구글 블로그 보기</a>
+            <a href="#shorts">🎬 유튜브 쇼츠 보기</a>
+            <a href="#longform">🎬 유튜브 롱폼 보기</a>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.9;">※ 링크는 각 플랫폼 발행 후 업데이트됩니다</p>
+        </div>
+        
+        <hr style="margin: 40px 0; border: none; border-top: 2px solid #ddd;">
+        
+        <blockquote>
+            <p><strong>💡 오늘의 한 줄 통찰</strong></p>
+            <p style="font-size: 1.2em; color: #2c3e50;">"검을 쥐지 말고 던져라. 가장 강한 힘은 쥐었을 때가 아니라, 던졌을 때 온다."</p>
+            <p style="text-align: right; margin-top: 10px;">— 용비검 제1원리</p>
+        </blockquote>
+        
+        <p style="font-size: 0.85em; color: #888; margin-top: 40px; text-align: center;">
+            © 2026 용비검 철학 심화 자료 허브 | 이 자료는 무예 철학 해석 및 정보 제공을 위한 것이며, 실제 무예 수련은 전문 지도자와 상담하시기 바랍니다.
+        </p>
+    </div>
+</body>
+</html>
