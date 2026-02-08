@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>용비허브 | 태극 인사이트 심화 자료</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 60px 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+        
+        .description {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        
+        .hub-list {
+            display: grid;
+            gap: 25px;
+            margin-top: 50px;
+        }
+        
+        .hub-card {
+            background: white;
+            color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            display: block;
+        }
+        
+        .hub-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        }
+        
+        .hub-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 2em;
+            font-weight: 600;
+        }
+        
+        .hub-card p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 0;
+            line-height: 1.7;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        
+        footer {
+            margin-top: 70px;
+            opacity: 0.85;
+            line-height: 1.8;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: underline;
+            transition: opacity 0.3s;
+        }
+        
+        footer a:hover {
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            
+            .subtitle {
+                font-size: 1.2em;
+            }
+            
+            .hub-card {
+                padding: 30px;
+            }
+            
+            .hub-card h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>용비허브 (Yongbi Hub)</h1>
+        <p class="subtitle">태극 인사이트 심화 자료 아카이브</p>
+        <p class="description">2,500년 주역의 지혜를 현대 경영·투자·건강에 적용합니다</p>
+        
+        <div class="hub-list">
+            <a href="houdejaemul-investment-hub.html" class="hub-card">
+                <h2>후덕재물(厚德載物) 심화 자료 허브</h2>
+                <p>주역 건괘·곤괘 원문 대조표, 5가지 두께 자가 진단 체크리스트, 버블 5단계 상세 타임라인, 투자 전략 용어사전 12개, 실전 워크시트 제공</p>
+                <span class="badge">📖 지금 읽기</span>
+            </a>
+            
+            <!-- 추가 허브는 여기에 카드 형식으로 추가 -->
+        </div>
+        
+        <footer>
+            <p style="font-size: 1.1em; margin-bottom: 10px;"><strong>저자: 김성수 (Sung-Soo Kim)</strong></p>
+            <p>주역 경영 컨설턴트 | 무예 선禪 연구자 | 바이오힐링 에세이스트</p>
+            <p style="margin-top: 25px;">
+                <a href="https://www.taegukinsight.com/" target="_blank">🏠 태극 인사이트</a> | 
+                <a href="https://blog.naver.com/sskim95" target="_blank">📝 네이버 블로그</a> | 
+                <a href="mailto:sskim952011@gmail.com">📧 이메일</a>
+            </p>
+            <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.7;">
+                © 2026 TaeGuk Insight. All Rights Reserved.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
